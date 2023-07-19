@@ -121,6 +121,12 @@ ul {
     padding: 15px 30px;
     margin-top: 30px;
 }
+@media screen and (max-width:768px) {
+    .banner{
+        flex-direction: column;
+    }
+
+}
 
 @media screen and (max-width:425px) {
     .banner {
@@ -180,6 +186,12 @@ ul {
     font-size: 20px;
     font-weight: 500;
     margin-top: 20px;
+}
+@media screen and (max-width:768px) {
+    .gamer-section{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:425px) {
@@ -246,6 +258,12 @@ ul {
     font-weight: 500;
     margin-top: 10px;
 }
+@media screen and (max-width:768px) {
+    .online-games-img{
+        flex-direction: column;
+    }
+    
+}
 
 @media screen and (max-width:425px) {
     .online-games-img {
@@ -300,6 +318,14 @@ ul {
     left: 90px;
     top: 40px;
 }
+@media screen and (max-width:768px) {
+    .instant-games{
+        flex-direction: column;
+    }
+    .ig-desc{
+        margin-bottom: 40px;
+    }
+}
 
 @media screen and (max-width:425px) {
     .instant-games {
@@ -329,15 +355,19 @@ ul {
 /* last section styles */
 .last-sect {
     margin-top: 150px;
-   
 }
+.btn-pic:hover{
+    color: #FF42A5;
+}
+
+
 
 .btn-pic {
     display: flex;
     align-items: center;
     border-radius: 50px;
     background: #FFF;
-    border: 0 ;
+    border: 0;
 }
 
 .btn-desc {
@@ -345,18 +375,86 @@ ul {
     font-size: 14px;
     font-weight: 600;
 }
-.ls-btn{
+
+.ls-btn {
     display: flex;
     justify-content: space-around;
-} 
-.ls-btn-1{
+}
+
+.ls-btn-1 {
     display: flex;
     justify-content: space-around;
     margin-top: 25px;
-}  
+}
+
 @media screen and (max-width:425px) {
-    .ls-btn{
-        
-    }
+    .ls-btn {}
+}
+
+/* footer section */
+.footer {
+    background: #0B0223;
+}
+
+.logo-1 {
+    display: flex;
+    margin-left: 550px;
+    margin-top: 150px;
+}
+
+.f-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.amer {
+    color: white;
+}
+
+.one {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-btn {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.f-btn {
+    background: transparent;
+    border: 0;
+}
+
+.last-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.two {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.three {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+@media screen and (max-width:425px) {
+    .logo-1{
+        margin-left: 90px;
     
-} 
+    }
+    .f-list{
+        flex-direction: column;
+    }
+}
