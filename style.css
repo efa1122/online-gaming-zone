@@ -259,9 +259,67 @@ ul {
     .online-games-desc {
         font-size: 14px;
     }
-    .og-desc{
+
+    .og-desc {
         font-size: 14px;
         margin-bottom: 10px;
     }
 
+}
+
+/* instant games styles */
+.instant-games {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+    text-align: right;
+}
+
+.ig-title {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.pi {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ig-desc {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 17px;
+}
+.pic{
+   position: relative;
+    left: 90px;
+  top: 40px;
+}
+
+@media screen and (max-width:425px) {
+    .instant-games{
+        flex-direction: column;
+        text-align: center;
+    }
+    .ig-title{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .ig-desc{
+        font-size: 14px;
+        margin-bottom: 50PX;
+    }
+    .pic{
+        height: 100px;  
+    }
+    .pic-1{
+        height: 250px;
+    }
+   
+    
+    
 }
