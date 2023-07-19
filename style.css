@@ -294,32 +294,69 @@ ul {
     font-weight: 400;
     margin-top: 17px;
 }
-.pic{
-   position: relative;
+
+.pic {
+    position: relative;
     left: 90px;
-  top: 40px;
+    top: 40px;
 }
 
 @media screen and (max-width:425px) {
-    .instant-games{
+    .instant-games {
         flex-direction: column;
         text-align: center;
     }
-    .ig-title{
+
+    .ig-title {
         font-size: 30px;
         margin-bottom: 30px;
     }
-    .ig-desc{
+
+    .ig-desc {
         font-size: 14px;
         margin-bottom: 50PX;
     }
-    .pic{
-        height: 100px;  
+
+    .pic {
+        height: 100px;
     }
-    .pic-1{
+
+    .pic-1 {
         height: 250px;
     }
-   
-    
-    
 }
+
+/* last section styles */
+.last-sect {
+    margin-top: 150px;
+   
+}
+
+.btn-pic {
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    background: #FFF;
+    border: 0 ;
+}
+
+.btn-desc {
+    color: #0B0223;
+    font-size: 14px;
+    font-weight: 600;
+}
+.ls-btn{
+    display: flex;
+    justify-content: space-around;
+} 
+.ls-btn-1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}  
+@media screen and (max-width:425px) {
+    .ls-btn{
+        
+    }
+    
+} 
