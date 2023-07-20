@@ -261,6 +261,7 @@ ul {
 @media screen and (max-width:768px) {
     .online-games-img{
         flex-direction: column;
+        
     }
     
 }
@@ -356,11 +357,6 @@ ul {
 .last-sect {
     margin-top: 150px;
 }
-.btn-pic:hover{
-    color: #FF42A5;
-}
-
-
 
 .btn-pic {
     display: flex;
@@ -368,6 +364,11 @@ ul {
     border-radius: 50px;
     background: #FFF;
     border: 0;
+    padding: 5px 10px;
+}
+.btn-pic:hover{
+    border: solid #ff42a4d1;
+    cursor: pointer;
 }
 
 .btn-desc {
@@ -448,6 +449,13 @@ ul {
     font-size: 14px;
     font-weight: 500;
     margin-top: 30px;
+}
+@media screen and (max-width:768px) {
+    .logo-1{
+    margin-left: 190px;
+     
+    }
+    
 }
 @media screen and (max-width:425px) {
     .logo-1{
