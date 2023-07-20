@@ -121,8 +121,9 @@ ul {
     padding: 15px 30px;
     margin-top: 30px;
 }
+
 @media screen and (max-width:768px) {
-    .banner{
+    .banner {
         flex-direction: column;
     }
 
@@ -187,8 +188,9 @@ ul {
     font-weight: 500;
     margin-top: 20px;
 }
+
 @media screen and (max-width:768px) {
-    .gamer-section{
+    .gamer-section {
         flex-direction: column-reverse;
         text-align: center;
     }
@@ -252,18 +254,24 @@ ul {
     margin-right: 50px;
 }
 
+.og-img:hover {
+    border: solid 1px grey;
+    border-radius: 15px;
+}
+
 .og-desc {
     color: #534C64;
     font-size: 16px;
     font-weight: 500;
     margin-top: 10px;
 }
+
 @media screen and (max-width:768px) {
-    .online-games-img{
+    .online-games-img {
         flex-direction: column;
-        
+
     }
-    
+
 }
 
 @media screen and (max-width:425px) {
@@ -319,11 +327,13 @@ ul {
     left: 90px;
     top: 40px;
 }
+
 @media screen and (max-width:768px) {
-    .instant-games{
+    .instant-games {
         flex-direction: column;
     }
-    .ig-desc{
+
+    .ig-desc {
         margin-bottom: 40px;
     }
 }
@@ -366,7 +376,8 @@ ul {
     border: 0;
     padding: 5px 10px;
 }
-.btn-pic:hover{
+
+.btn-pic:hover {
     border: solid #ff42a4d1;
     cursor: pointer;
 }
@@ -450,19 +461,22 @@ ul {
     font-weight: 500;
     margin-top: 30px;
 }
+
 @media screen and (max-width:768px) {
-    .logo-1{
-    margin-left: 190px;
-     
+    .logo-1 {
+        margin-left: 190px;
+
     }
-    
+
 }
+
 @media screen and (max-width:425px) {
-    .logo-1{
+    .logo-1 {
         margin-left: 90px;
-    
+
     }
-    .f-list{
+
+    .f-list {
         flex-direction: column;
     }
 }
